@@ -47,6 +47,7 @@ Partial Class frmFirstShift
         Me.txtTotal.ReadOnly = True
         Me.txtTotal.Size = New System.Drawing.Size(100, 20)
         Me.txtTotal.TabIndex = 42
+        Me.txtTotal.Text = "0"
         '
         'lblTotal
         '
@@ -64,6 +65,7 @@ Partial Class frmFirstShift
         Me.txtTt.ReadOnly = True
         Me.txtTt.Size = New System.Drawing.Size(100, 20)
         Me.txtTt.TabIndex = 40
+        Me.txtTt.Text = "0"
         '
         'lblTt
         '
@@ -81,6 +83,7 @@ Partial Class frmFirstShift
         Me.txtTb.ReadOnly = True
         Me.txtTb.Size = New System.Drawing.Size(100, 20)
         Me.txtTb.TabIndex = 38
+        Me.txtTb.Text = "0"
         '
         'lblTb
         '
@@ -98,6 +101,7 @@ Partial Class frmFirstShift
         Me.txtTc.ReadOnly = True
         Me.txtTc.Size = New System.Drawing.Size(100, 20)
         Me.txtTc.TabIndex = 36
+        Me.txtTc.Text = "0"
         '
         'lblTc
         '
