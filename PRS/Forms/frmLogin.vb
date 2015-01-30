@@ -5,6 +5,9 @@ Public Class frmLogin
     Dim cmd As New SqlCommand
 
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
+
+
+
         frmShifts.ShowDialog()
 
         con.ConnectionString = "Server=Miranda-PC\SQLEXPRESS; Database=PayRollSystem; Trusted_Connection=True;"
