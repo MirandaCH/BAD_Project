@@ -97,7 +97,7 @@ Public Class frmFirstShift
 
     Private Sub btnTpaid_Click_1(sender As Object, e As EventArgs) Handles btnTpaid.Click
         cmd.Parameters.Clear()
-        cmd.CommandText = "INSERT INTO Tickets (RegistrationDate, TicketType, Total, UserID) VALUES (@RD, 1, 40, @UID)"
+        cmd.CommandText = "INSERT INTO Tickets (RegistrationDate, TicketType, Total, UserID) VALUES (@RD, 1, 110, @UID)"
         cmd.Parameters.Add(New SqlParameter("@RD", DateTime.Now))
         cmd.Parameters.Add(New SqlParameter("@UID", Session.UserID))
 
