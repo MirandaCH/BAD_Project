@@ -9,6 +9,12 @@ Public Class frmRegiter
         con.ConnectionString = DatabaseConnection.ConnectionString
         cmd.Connection = con
 
+
+        If txtFirstname.Text.Trim() = "" Then
+            MessageBox.Show("First name cannot be empty!")
+            txtFirstname.Focus()
+            Return
+        End If
         cmd.CommandText = "Insert INTO Employees(Firstname, Lastname, Email, Phone, Username, Password) VALUES (@Firstname, @Lastname, @Email, @Phone, @Username, @Password)"
 
         cmd.Parameters.Add(New SqlParameter("@Firstname", txtFirstname.Text))
