@@ -80,4 +80,8 @@ Public Class frmFirstShift
     Private Sub btnBack_Click_1(sender As Object, e As EventArgs) Handles btnBack.Click
         Close()
     End Sub
+
+    Private Sub btnCpaid_Click_1(sender As Object, e As EventArgs) Handles btnCpaid.Click
+
+    End Sub
 End Class

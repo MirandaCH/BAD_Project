@@ -6,7 +6,7 @@ Public Class frmRegiter
 
     Private Sub btnRegister_Click(sender As Object, e As EventArgs) Handles btnRegister.Click
 
-        con.ConnectionString = " Server=Miranda-PC\SQLEXPRESS; Database=PayRollSystem; Trusted_Connection=True;"
+        con.ConnectionString = DatabaseConnection.ConnectionString
         cmd.Connection = con
 
         cmd.CommandText = "Insert INTO Employees(Firstname, Lastname, Email, Phone, Username, Password) VALUES (@Firstname, @Lastname, @Email, @Phone, @Username, @Password)"
