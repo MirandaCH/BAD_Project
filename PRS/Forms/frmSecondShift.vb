@@ -6,7 +6,7 @@ Public Class frmSecondShift
     Dim cmd As New SqlCommand
 
     Private Sub frmSecondShift_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        con.ConnectionString = "Server=Miranda-PC\SQLEXPRESS;Database=PayRollSystem;Trusted_Connection=True;"
+        con.ConnectionString = DatabaseConnection.ConnectionString
         cmd.Connection = con
 
     End Sub

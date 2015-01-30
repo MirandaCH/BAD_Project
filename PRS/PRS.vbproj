@@ -70,6 +70,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseConnection.vb" />
     <Compile Include="Domain\Register.vb" />
     <Compile Include="Forms\Menu.vb">
       <SubType>Form</SubType>
