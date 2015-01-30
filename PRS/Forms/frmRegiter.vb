@@ -15,6 +15,37 @@ Public Class frmRegiter
             txtFirstname.Focus()
             Return
         End If
+
+        If txtLastname.Text.Trim() = "" Then
+            MessageBox.Show("Last name cannot be empty!")
+            txtLastname.Focus()
+            Return
+        End If
+
+        If txtEmail.Text.Trim() = "" Then
+            MessageBox.Show("Email cannot be empty!")
+            txtEmail.Focus()
+            Return
+        End If
+
+        If txtPhone.Text.Trim() = "" Then
+            MessageBox.Show("Phone cannot be empty!")
+            txtPhone.Focus()
+            Return
+        End If
+
+        If txtUsername.Text.Trim() = "" Then
+            MessageBox.Show("Username cannot be empty!")
+            txtUsername.Focus()
+            Return
+        End If
+
+        If txtPassword.Text.Trim() = "" Then
+            MessageBox.Show("Password cannot be empty!")
+            txtPassword.Focus()
+            Return
+        End If
+
         cmd.CommandText = "Insert INTO Employees(Firstname, Lastname, Email, Phone, Username, Password) VALUES (@Firstname, @Lastname, @Email, @Phone, @Username, @Password)"
 
         cmd.Parameters.Add(New SqlParameter("@Firstname", txtFirstname.Text))
@@ -42,6 +73,10 @@ Public Class frmRegiter
 
     Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
         Close()
+    End Sub
+
+    Private Sub txtFirstname_TextChanged(sender As Object, e As EventArgs) Handles txtFirstname.TextChanged
+
     End Sub
 End Class
 
