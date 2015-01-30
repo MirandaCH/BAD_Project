@@ -11,6 +11,8 @@
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
-        Close()
+        If MessageBox.Show("Are you sure you want to exit?", "Exit application!?", MessageBoxButtons.YesNo) = Windows.Forms.DialogResult.Yes Then
+            Me.Close()
+        End If
     End Sub
 End Class
