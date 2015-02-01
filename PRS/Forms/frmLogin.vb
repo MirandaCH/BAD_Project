@@ -10,7 +10,7 @@ Public Class frmLogin
 
         frmShifts.ShowDialog()
 
-        con.ConnectionString = "Server=Miranda-PC\SQLEXPRESS; Database=PayRollSystem; Trusted_Connection=True;"
+        con.ConnectionString = DatabaseConnection.ConnectionString
         cmd.Connection = con
 
         cmd.CommandText = "SELECT * FROM Employees WHERE Username=@Username AND Password=@Password"
