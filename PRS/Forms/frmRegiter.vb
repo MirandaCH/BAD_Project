@@ -66,8 +66,9 @@ Public Class frmRegiter
             MessageBox.Show("An error has ocured! Message!" + ex.Message)
             con.Close()
 
-
         End Try
+
+        Close()
 
     End Sub
 
