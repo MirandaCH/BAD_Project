@@ -6,14 +6,10 @@ Public Class frmLogin
 
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
 
-
-
-        frmShifts.ShowDialog()
-
         con.ConnectionString = DatabaseConnection.ConnectionString
         cmd.Connection = con
 
-        cmd.CommandText = "SELECT * FROM Employees WHERE Username=@Username AND Password=@Password"
+        cmd.CommandText = "SELECT Username, Password FROM Employees WHERE Username=@Username AND Password=@Password"
         cmd.Parameters.Add(New SqlParameter("@Username", txtUsername.Text))
         cmd.Parameters.Add(New SqlParameter("@Password", txtPassword.Text))
 
@@ -33,6 +29,9 @@ Public Class frmLogin
             con.Close()
 
         End Try
+
+        frmShifts.ShowDialog()
+
     End Sub
 
     Private Sub frmLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
