@@ -15,4 +15,16 @@
             Me.Close()
         End If
     End Sub
+
+    Private Sub HelpToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HelpToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub ContactUsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ContactUsToolStripMenuItem.Click
+        frmHelp.ShowDialog()
+    End Sub
+
+    Private Sub AllEmployeesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AllEmployeesToolStripMenuItem.Click
+        frmSearch.ShowDialog()
+    End Sub
 End Class

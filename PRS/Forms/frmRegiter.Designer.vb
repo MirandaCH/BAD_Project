@@ -42,9 +42,10 @@ Partial Class frmRegiter
         'lblName
         '
         Me.lblName.AutoSize = True
+        Me.lblName.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblName.Location = New System.Drawing.Point(16, 19)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(55, 13)
+        Me.lblName.Size = New System.Drawing.Size(67, 17)
         Me.lblName.TabIndex = 0
         Me.lblName.Text = "Firstname:"
         '
@@ -68,14 +69,16 @@ Partial Class frmRegiter
         'lblPassword
         '
         Me.lblPassword.AutoSize = True
+        Me.lblPassword.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPassword.Location = New System.Drawing.Point(16, 158)
         Me.lblPassword.Name = "lblPassword"
-        Me.lblPassword.Size = New System.Drawing.Size(56, 13)
+        Me.lblPassword.Size = New System.Drawing.Size(62, 17)
         Me.lblPassword.TabIndex = 0
         Me.lblPassword.Text = "Password:"
         '
         'btnRegister
         '
+        Me.btnRegister.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRegister.Image = CType(resources.GetObject("btnRegister.Image"), System.Drawing.Image)
         Me.btnRegister.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnRegister.Location = New System.Drawing.Point(199, 192)
@@ -89,9 +92,10 @@ Partial Class frmRegiter
         'lblEmail
         '
         Me.lblEmail.AutoSize = True
+        Me.lblEmail.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblEmail.Location = New System.Drawing.Point(16, 71)
         Me.lblEmail.Name = "lblEmail"
-        Me.lblEmail.Size = New System.Drawing.Size(35, 13)
+        Me.lblEmail.Size = New System.Drawing.Size(42, 17)
         Me.lblEmail.TabIndex = 10
         Me.lblEmail.Text = "Email:"
         '
@@ -114,9 +118,10 @@ Partial Class frmRegiter
         'lblPhone
         '
         Me.lblPhone.AutoSize = True
+        Me.lblPhone.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPhone.Location = New System.Drawing.Point(16, 100)
         Me.lblPhone.Name = "lblPhone"
-        Me.lblPhone.Size = New System.Drawing.Size(41, 13)
+        Me.lblPhone.Size = New System.Drawing.Size(42, 17)
         Me.lblPhone.TabIndex = 11
         Me.lblPhone.Text = "Phone:"
         '
@@ -131,9 +136,10 @@ Partial Class frmRegiter
         'lblUsername
         '
         Me.lblUsername.AutoSize = True
+        Me.lblUsername.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblUsername.Location = New System.Drawing.Point(16, 129)
         Me.lblUsername.Name = "lblUsername"
-        Me.lblUsername.Size = New System.Drawing.Size(58, 13)
+        Me.lblUsername.Size = New System.Drawing.Size(65, 17)
         Me.lblUsername.TabIndex = 14
         Me.lblUsername.Text = "Username:"
         '
@@ -148,19 +154,21 @@ Partial Class frmRegiter
         'lblLastname
         '
         Me.lblLastname.AutoSize = True
+        Me.lblLastname.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLastname.Location = New System.Drawing.Point(16, 45)
         Me.lblLastname.Name = "lblLastname"
-        Me.lblLastname.Size = New System.Drawing.Size(56, 13)
+        Me.lblLastname.Size = New System.Drawing.Size(63, 17)
         Me.lblLastname.TabIndex = 11
         Me.lblLastname.Text = "Lastname:"
         '
         'btnCancel
         '
+        Me.btnCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancel.Image = CType(resources.GetObject("btnCancel.Image"), System.Drawing.Image)
         Me.btnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnCancel.Location = New System.Drawing.Point(113, 192)
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(67, 29)
+        Me.btnCancel.Size = New System.Drawing.Size(71, 29)
         Me.btnCancel.TabIndex = 16
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight
