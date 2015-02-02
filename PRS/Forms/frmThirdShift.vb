@@ -8,10 +8,8 @@ Public Class frmThirdShift
     Private Sub frmThirdShift_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         con.ConnectionString = DatabaseConnection.ConnectionString
         cmd.Connection = con
-        con.Open()
-        con.Close()
-    End Sub
 
+    End Sub
 
     Private Sub ShowTotals()
         cmd.Parameters.Clear()
@@ -37,11 +35,8 @@ Public Class frmThirdShift
         txtTotal.Text = Convert.ToDecimal(txtTb.Text) + Convert.ToDecimal(txtTc.Text) + Convert.ToDecimal(txtTt.Text)
     End Sub
 
-    Private Sub btnBack_Click_1(sender As Object, e As EventArgs)
-        Close()
-    End Sub
 
-    Private Sub btnCpaid_Click_1(sender As Object, e As EventArgs)
+    Private Sub btnCpaid_Click_1(sender As Object, e As EventArgs) Handles btnCpaid.Click
         cmd.Parameters.Clear()
         cmd.CommandText = "INSERT INTO Tickets (RegistrationDate, TicketType, Total, UserID) VALUES (@RD, 1, 50, @UID)"
         cmd.Parameters.Add(New SqlParameter("@RD", DateTime.Now))
@@ -54,7 +49,7 @@ Public Class frmThirdShift
         ShowTotals()
     End Sub
 
-    Private Sub btnBpaid_Click_1(sender As Object, e As EventArgs)
+    Private Sub btnBpaid_Click_1(sender As Object, e As EventArgs) Handles btnBpaid.Click
         cmd.Parameters.Clear()
         cmd.CommandText = "INSERT INTO Tickets (RegistrationDate, TicketType, Total, UserID) VALUES (@RD, 2, 100, @UID)"
         cmd.Parameters.Add(New SqlParameter("@RD", DateTime.Now))
@@ -67,7 +62,7 @@ Public Class frmThirdShift
         ShowTotals()
     End Sub
 
-    Private Sub btnTpaid_Click_1(sender As Object, e As EventArgs)
+    Private Sub btnTpaid_Click_1(sender As Object, e As EventArgs) Handles btnTpaid.Click
         cmd.Parameters.Clear()
         cmd.CommandText = "INSERT INTO Tickets (RegistrationDate, TicketType, Total, UserID) VALUES (@RD, 3, 110, @UID)"
         cmd.Parameters.Add(New SqlParameter("@RD", DateTime.Now))
@@ -78,5 +73,10 @@ Public Class frmThirdShift
         con.Close()
 
         ShowTotals()
+    End Sub
+
+    Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click
+        Close()
+
     End Sub
 End Class
