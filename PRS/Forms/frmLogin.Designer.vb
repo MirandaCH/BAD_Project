@@ -34,6 +34,7 @@ Partial Class frmLogin
         'btnLogin
         '
         Me.btnLogin.BackColor = System.Drawing.Color.Transparent
+        Me.btnLogin.Font = New System.Drawing.Font("Britannic Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.Image = CType(resources.GetObject("btnLogin.Image"), System.Drawing.Image)
         Me.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnLogin.Location = New System.Drawing.Point(187, 70)
@@ -46,6 +47,7 @@ Partial Class frmLogin
         '
         'btnCancel
         '
+        Me.btnCancel.Font = New System.Drawing.Font("Britannic Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancel.Image = CType(resources.GetObject("btnCancel.Image"), System.Drawing.Image)
         Me.btnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnCancel.Location = New System.Drawing.Point(92, 70)
@@ -67,9 +69,10 @@ Partial Class frmLogin
         'lblPassword
         '
         Me.lblPassword.AutoSize = True
+        Me.lblPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPassword.Location = New System.Drawing.Point(12, 42)
         Me.lblPassword.Name = "lblPassword"
-        Me.lblPassword.Size = New System.Drawing.Size(56, 13)
+        Me.lblPassword.Size = New System.Drawing.Size(65, 13)
         Me.lblPassword.TabIndex = 8
         Me.lblPassword.Text = "Password:"
         '
@@ -83,9 +86,10 @@ Partial Class frmLogin
         'lblUsername
         '
         Me.lblUsername.AutoSize = True
+        Me.lblUsername.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblUsername.Location = New System.Drawing.Point(12, 16)
         Me.lblUsername.Name = "lblUsername"
-        Me.lblUsername.Size = New System.Drawing.Size(58, 13)
+        Me.lblUsername.Size = New System.Drawing.Size(67, 13)
         Me.lblUsername.TabIndex = 6
         Me.lblUsername.Text = "Username:"
         '
