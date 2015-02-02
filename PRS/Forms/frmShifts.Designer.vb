@@ -31,6 +31,7 @@ Partial Class frmShifts
         '
         'btnFirstShift
         '
+        Me.btnFirstShift.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnFirstShift.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.btnFirstShift.Image = CType(resources.GetObject("btnFirstShift.Image"), System.Drawing.Image)
         Me.btnFirstShift.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -44,11 +45,12 @@ Partial Class frmShifts
         '
         'btnSecondShift
         '
+        Me.btnSecondShift.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSecondShift.Image = CType(resources.GetObject("btnSecondShift.Image"), System.Drawing.Image)
         Me.btnSecondShift.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnSecondShift.Location = New System.Drawing.Point(67, 79)
         Me.btnSecondShift.Name = "btnSecondShift"
-        Me.btnSecondShift.Size = New System.Drawing.Size(107, 41)
+        Me.btnSecondShift.Size = New System.Drawing.Size(117, 41)
         Me.btnSecondShift.TabIndex = 1
         Me.btnSecondShift.Text = "Second Shift"
         Me.btnSecondShift.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -56,6 +58,7 @@ Partial Class frmShifts
         '
         'btnThirdShift
         '
+        Me.btnThirdShift.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnThirdShift.Image = CType(resources.GetObject("btnThirdShift.Image"), System.Drawing.Image)
         Me.btnThirdShift.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnThirdShift.Location = New System.Drawing.Point(121, 126)
@@ -69,11 +72,12 @@ Partial Class frmShifts
         'lblChoose
         '
         Me.lblChoose.AutoSize = True
+        Me.lblChoose.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblChoose.Image = CType(resources.GetObject("lblChoose.Image"), System.Drawing.Image)
         Me.lblChoose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.lblChoose.Location = New System.Drawing.Point(12, 9)
         Me.lblChoose.Name = "lblChoose"
-        Me.lblChoose.Size = New System.Drawing.Size(112, 13)
+        Me.lblChoose.Size = New System.Drawing.Size(137, 13)
         Me.lblChoose.TabIndex = 3
         Me.lblChoose.Text = "       Choose your shift:"
         Me.lblChoose.TextAlign = System.Drawing.ContentAlignment.MiddleRight

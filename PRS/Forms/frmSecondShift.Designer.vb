@@ -42,136 +42,151 @@ Partial Class frmSecondShift
         '
         'btnBack
         '
+        Me.btnBack.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBack.Image = CType(resources.GetObject("btnBack.Image"), System.Drawing.Image)
         Me.btnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnBack.Location = New System.Drawing.Point(87, 229)
+        Me.btnBack.Location = New System.Drawing.Point(76, 228)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(108, 30)
-        Me.btnBack.TabIndex = 43
+        Me.btnBack.Size = New System.Drawing.Size(118, 30)
+        Me.btnBack.TabIndex = 74
         Me.btnBack.Text = "Back to Shifts"
         Me.btnBack.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnBack.UseVisualStyleBackColor = True
         '
         'txtTotal
         '
-        Me.txtTotal.Location = New System.Drawing.Point(151, 193)
+        Me.txtTotal.Location = New System.Drawing.Point(151, 197)
         Me.txtTotal.Name = "txtTotal"
         Me.txtTotal.ReadOnly = True
         Me.txtTotal.Size = New System.Drawing.Size(100, 20)
-        Me.txtTotal.TabIndex = 42
+        Me.txtTotal.TabIndex = 73
+        Me.txtTotal.Text = "0"
         '
         'lblTotal
         '
         Me.lblTotal.AutoSize = True
-        Me.lblTotal.Location = New System.Drawing.Point(33, 200)
+        Me.lblTotal.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotal.Location = New System.Drawing.Point(33, 204)
         Me.lblTotal.Name = "lblTotal"
-        Me.lblTotal.Size = New System.Drawing.Size(31, 13)
-        Me.lblTotal.TabIndex = 41
+        Me.lblTotal.Size = New System.Drawing.Size(38, 17)
+        Me.lblTotal.TabIndex = 72
         Me.lblTotal.Text = "Total"
         '
         'txtTt
         '
-        Me.txtTt.Location = New System.Drawing.Point(151, 167)
+        Me.txtTt.Location = New System.Drawing.Point(151, 171)
         Me.txtTt.Name = "txtTt"
         Me.txtTt.ReadOnly = True
         Me.txtTt.Size = New System.Drawing.Size(100, 20)
-        Me.txtTt.TabIndex = 40
+        Me.txtTt.TabIndex = 71
+        Me.txtTt.Text = "0"
         '
         'lblTt
         '
         Me.lblTt.AutoSize = True
-        Me.lblTt.Location = New System.Drawing.Point(33, 174)
+        Me.lblTt.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTt.Location = New System.Drawing.Point(33, 178)
         Me.lblTt.Name = "lblTt"
-        Me.lblTt.Size = New System.Drawing.Size(93, 13)
-        Me.lblTt.TabIndex = 39
+        Me.lblTt.Size = New System.Drawing.Size(114, 17)
+        Me.lblTt.TabIndex = 70
         Me.lblTt.Text = "Total from Trucks:"
         '
         'txtTb
         '
-        Me.txtTb.Location = New System.Drawing.Point(151, 141)
+        Me.txtTb.Location = New System.Drawing.Point(151, 145)
         Me.txtTb.Name = "txtTb"
         Me.txtTb.ReadOnly = True
         Me.txtTb.Size = New System.Drawing.Size(100, 20)
-        Me.txtTb.TabIndex = 38
+        Me.txtTb.TabIndex = 69
+        Me.txtTb.Text = "0"
         '
         'lblTb
         '
         Me.lblTb.AutoSize = True
-        Me.lblTb.Location = New System.Drawing.Point(33, 148)
+        Me.lblTb.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTb.Location = New System.Drawing.Point(33, 152)
         Me.lblTb.Name = "lblTb"
-        Me.lblTb.Size = New System.Drawing.Size(89, 13)
-        Me.lblTb.TabIndex = 37
+        Me.lblTb.Size = New System.Drawing.Size(108, 17)
+        Me.lblTb.TabIndex = 68
         Me.lblTb.Text = "Total from Buses:"
         '
         'txtTc
         '
-        Me.txtTc.Location = New System.Drawing.Point(151, 115)
+        Me.txtTc.Location = New System.Drawing.Point(151, 119)
         Me.txtTc.Name = "txtTc"
         Me.txtTc.ReadOnly = True
         Me.txtTc.Size = New System.Drawing.Size(100, 20)
-        Me.txtTc.TabIndex = 36
+        Me.txtTc.TabIndex = 67
+        Me.txtTc.Text = "0"
         '
         'lblTc
         '
         Me.lblTc.AutoSize = True
-        Me.lblTc.Location = New System.Drawing.Point(33, 122)
+        Me.lblTc.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTc.Location = New System.Drawing.Point(33, 126)
         Me.lblTc.Name = "lblTc"
-        Me.lblTc.Size = New System.Drawing.Size(81, 13)
-        Me.lblTc.TabIndex = 35
+        Me.lblTc.Size = New System.Drawing.Size(101, 17)
+        Me.lblTc.TabIndex = 66
         Me.lblTc.Text = "Total from Cars:"
         '
         'btnTpaid
         '
-        Me.btnTpaid.Location = New System.Drawing.Point(151, 67)
+        Me.btnTpaid.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTpaid.Location = New System.Drawing.Point(151, 71)
         Me.btnTpaid.Name = "btnTpaid"
         Me.btnTpaid.Size = New System.Drawing.Size(100, 23)
-        Me.btnTpaid.TabIndex = 34
+        Me.btnTpaid.TabIndex = 65
         Me.btnTpaid.Text = "PAID"
         Me.btnTpaid.UseVisualStyleBackColor = True
         '
         'lblTrucks
         '
         Me.lblTrucks.AutoSize = True
-        Me.lblTrucks.Location = New System.Drawing.Point(33, 72)
+        Me.lblTrucks.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTrucks.Location = New System.Drawing.Point(33, 76)
         Me.lblTrucks.Name = "lblTrucks"
-        Me.lblTrucks.Size = New System.Drawing.Size(85, 13)
-        Me.lblTrucks.TabIndex = 33
+        Me.lblTrucks.Size = New System.Drawing.Size(93, 17)
+        Me.lblTrucks.TabIndex = 64
         Me.lblTrucks.Text = "Trucks: 110 den"
         '
         'btnBpaid
         '
-        Me.btnBpaid.Location = New System.Drawing.Point(151, 38)
+        Me.btnBpaid.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBpaid.Location = New System.Drawing.Point(151, 42)
         Me.btnBpaid.Name = "btnBpaid"
         Me.btnBpaid.Size = New System.Drawing.Size(100, 23)
-        Me.btnBpaid.TabIndex = 32
+        Me.btnBpaid.TabIndex = 63
         Me.btnBpaid.Text = "PAID"
         Me.btnBpaid.UseVisualStyleBackColor = True
         '
         'lblBuses
         '
         Me.lblBuses.AutoSize = True
-        Me.lblBuses.Location = New System.Drawing.Point(33, 43)
+        Me.lblBuses.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblBuses.Location = New System.Drawing.Point(33, 47)
         Me.lblBuses.Name = "lblBuses"
-        Me.lblBuses.Size = New System.Drawing.Size(81, 13)
-        Me.lblBuses.TabIndex = 31
+        Me.lblBuses.Size = New System.Drawing.Size(89, 17)
+        Me.lblBuses.TabIndex = 62
         Me.lblBuses.Text = "Buses: 100 den"
         '
         'btnCpaid
         '
-        Me.btnCpaid.Location = New System.Drawing.Point(151, 9)
+        Me.btnCpaid.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCpaid.Location = New System.Drawing.Point(151, 13)
         Me.btnCpaid.Name = "btnCpaid"
         Me.btnCpaid.Size = New System.Drawing.Size(100, 23)
-        Me.btnCpaid.TabIndex = 30
+        Me.btnCpaid.TabIndex = 61
         Me.btnCpaid.Text = "PAID"
         Me.btnCpaid.UseVisualStyleBackColor = True
         '
         'lblCars
         '
         Me.lblCars.AutoSize = True
-        Me.lblCars.Location = New System.Drawing.Point(33, 14)
+        Me.lblCars.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCars.Location = New System.Drawing.Point(33, 18)
         Me.lblCars.Name = "lblCars"
-        Me.lblCars.Size = New System.Drawing.Size(67, 13)
-        Me.lblCars.TabIndex = 29
+        Me.lblCars.Size = New System.Drawing.Size(77, 17)
+        Me.lblCars.TabIndex = 60
         Me.lblCars.Text = "Cars: 50 den"
         '
         'frmSecondShift

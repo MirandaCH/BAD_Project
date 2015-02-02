@@ -42,11 +42,12 @@ Partial Class frmFirstShift
         '
         'btnBack
         '
+        Me.btnBack.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBack.Image = CType(resources.GetObject("btnBack.Image"), System.Drawing.Image)
         Me.btnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnBack.Location = New System.Drawing.Point(75, 224)
+        Me.btnBack.Location = New System.Drawing.Point(73, 224)
         Me.btnBack.Name = "btnBack"
-        Me.btnBack.Size = New System.Drawing.Size(108, 30)
+        Me.btnBack.Size = New System.Drawing.Size(118, 30)
         Me.btnBack.TabIndex = 59
         Me.btnBack.Text = "Back to Shifts"
         Me.btnBack.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -64,9 +65,10 @@ Partial Class frmFirstShift
         'lblTotal
         '
         Me.lblTotal.AutoSize = True
+        Me.lblTotal.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTotal.Location = New System.Drawing.Point(30, 200)
         Me.lblTotal.Name = "lblTotal"
-        Me.lblTotal.Size = New System.Drawing.Size(31, 13)
+        Me.lblTotal.Size = New System.Drawing.Size(38, 17)
         Me.lblTotal.TabIndex = 57
         Me.lblTotal.Text = "Total"
         '
@@ -82,9 +84,10 @@ Partial Class frmFirstShift
         'lblTt
         '
         Me.lblTt.AutoSize = True
+        Me.lblTt.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTt.Location = New System.Drawing.Point(30, 174)
         Me.lblTt.Name = "lblTt"
-        Me.lblTt.Size = New System.Drawing.Size(93, 13)
+        Me.lblTt.Size = New System.Drawing.Size(114, 17)
         Me.lblTt.TabIndex = 55
         Me.lblTt.Text = "Total from Trucks:"
         '
@@ -100,9 +103,10 @@ Partial Class frmFirstShift
         'lblTb
         '
         Me.lblTb.AutoSize = True
+        Me.lblTb.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTb.Location = New System.Drawing.Point(30, 148)
         Me.lblTb.Name = "lblTb"
-        Me.lblTb.Size = New System.Drawing.Size(89, 13)
+        Me.lblTb.Size = New System.Drawing.Size(108, 17)
         Me.lblTb.TabIndex = 53
         Me.lblTb.Text = "Total from Buses:"
         '
@@ -118,14 +122,16 @@ Partial Class frmFirstShift
         'lblTc
         '
         Me.lblTc.AutoSize = True
+        Me.lblTc.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTc.Location = New System.Drawing.Point(30, 122)
         Me.lblTc.Name = "lblTc"
-        Me.lblTc.Size = New System.Drawing.Size(81, 13)
+        Me.lblTc.Size = New System.Drawing.Size(101, 17)
         Me.lblTc.TabIndex = 51
         Me.lblTc.Text = "Total from Cars:"
         '
         'btnTpaid
         '
+        Me.btnTpaid.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnTpaid.Location = New System.Drawing.Point(148, 67)
         Me.btnTpaid.Name = "btnTpaid"
         Me.btnTpaid.Size = New System.Drawing.Size(100, 23)
@@ -136,14 +142,16 @@ Partial Class frmFirstShift
         'lblTrucks
         '
         Me.lblTrucks.AutoSize = True
+        Me.lblTrucks.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTrucks.Location = New System.Drawing.Point(30, 72)
         Me.lblTrucks.Name = "lblTrucks"
-        Me.lblTrucks.Size = New System.Drawing.Size(85, 13)
+        Me.lblTrucks.Size = New System.Drawing.Size(93, 17)
         Me.lblTrucks.TabIndex = 49
         Me.lblTrucks.Text = "Trucks: 110 den"
         '
         'btnBpaid
         '
+        Me.btnBpaid.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnBpaid.Location = New System.Drawing.Point(148, 38)
         Me.btnBpaid.Name = "btnBpaid"
         Me.btnBpaid.Size = New System.Drawing.Size(100, 23)
@@ -154,14 +162,16 @@ Partial Class frmFirstShift
         'lblBuses
         '
         Me.lblBuses.AutoSize = True
+        Me.lblBuses.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblBuses.Location = New System.Drawing.Point(30, 43)
         Me.lblBuses.Name = "lblBuses"
-        Me.lblBuses.Size = New System.Drawing.Size(81, 13)
+        Me.lblBuses.Size = New System.Drawing.Size(89, 17)
         Me.lblBuses.TabIndex = 47
         Me.lblBuses.Text = "Buses: 100 den"
         '
         'btnCpaid
         '
+        Me.btnCpaid.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCpaid.Location = New System.Drawing.Point(148, 9)
         Me.btnCpaid.Name = "btnCpaid"
         Me.btnCpaid.Size = New System.Drawing.Size(100, 23)
@@ -172,9 +182,10 @@ Partial Class frmFirstShift
         'lblCars
         '
         Me.lblCars.AutoSize = True
+        Me.lblCars.Font = New System.Drawing.Font("Comic Sans MS", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCars.Location = New System.Drawing.Point(30, 14)
         Me.lblCars.Name = "lblCars"
-        Me.lblCars.Size = New System.Drawing.Size(67, 13)
+        Me.lblCars.Size = New System.Drawing.Size(77, 17)
         Me.lblCars.TabIndex = 45
         Me.lblCars.Text = "Cars: 50 den"
         '
@@ -182,7 +193,7 @@ Partial Class frmFirstShift
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.ClientSize = New System.Drawing.Size(284, 266)
         Me.Controls.Add(Me.btnBack)
         Me.Controls.Add(Me.txtTotal)
         Me.Controls.Add(Me.lblTotal)
